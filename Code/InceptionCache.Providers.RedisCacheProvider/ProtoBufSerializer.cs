@@ -1,7 +1,8 @@
 ﻿using System.IO;
+using InceptionCache.Core.Serialization;
 using ProtoBuf;
 
-namespace InceptionCache.Core.Serialization
+namespace InceptionCache.Providers.RedisCacheProvider
 {
     public class ProtoBufSerializer : ISerializer
     {
